@@ -20,6 +20,7 @@ function Login() {
           const AdminLogin = async (e) => {
             setLoading(true)
             e.preventDefault()
+            // console.log(serverUrl + '/api/auth/adminlogin')
             try {
               const result = await axios.post(serverUrl + '/api/auth/adminlogin',{email , password} , {withCredentials:true})
               console.log(result.data)

@@ -103,6 +103,9 @@ export const googleLogin = async (req,res) => {
 
 
 export const adminLogin = async (req,res) => {
+    console.log("BODY:", req.body);
+console.log("ENV EMAIL:", process.env.ADMIN_EMAIL);
+console.log("ENV PASSWORD:", process.env.ADMIN_PASSWORD);
     try {
         let {email , password} = req.body
         if(email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD){
