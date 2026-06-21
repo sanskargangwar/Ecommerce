@@ -62,3 +62,15 @@ uploads/
 
 # VerceI
 .vercel/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+
+# Build files
+dist/
+build/
