@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
     })
 })
 app.use(cors({
- origin:["http://localhost:5173" , "https://ecommerce-admin-h7x0.onrender.com"],
+ origin:["https://ecommerce-froneten.onrender.com" , "https://ecommerce-admin-h7x0.onrender.com"],
  credentials:true
 }))
 
