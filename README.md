@@ -5,10 +5,7 @@ An AI-powered E-Commerce platform built using the MERN Stack that delivers a mod
 ---
 
 ## 🚀 Live Demo
-
-### Frontend
 https://ecommerce-froneten.onrender.com/
-### Backend API
 
 ---
 
